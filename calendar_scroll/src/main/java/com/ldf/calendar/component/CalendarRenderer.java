@@ -212,7 +212,6 @@ public class CalendarRenderer {
         } else {
             weeks[row].days[col] = new Day(State.NEXT_MONTH, date, row, col);
         }
-        // TODO: 17/6/27  当下一个月的天数大于七时，说明该月有六周
 //        if(position - firstDayWeek - currentMonthDays + 1 >= 7) { //当下一个月的天数大于七时，说明该月有六周
 //        }
     }

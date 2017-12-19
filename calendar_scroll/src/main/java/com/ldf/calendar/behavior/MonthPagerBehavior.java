@@ -86,6 +86,5 @@ public class MonthPagerBehavior extends CoordinatorLayout.Behavior<MonthPager> {
         }
 
         return true;
-        // TODO: 16/12/8 dy为负时表示向上滑动，dy为正时表示向下滑动，dy为零时表示滑动停止
     }
 }

@@ -212,7 +212,7 @@ public final class Utils {
      * @param seedDate 种子日期
      * @return CalendarDate 所在周周日
      */
-    public static CalendarDate getSunday(CalendarDate seedDate) {// TODO: 16/12/12 得到一个CustomDate对象
+    public static CalendarDate getSunday(CalendarDate seedDate) {
         Calendar c = Calendar.getInstance();
         String dateString = seedDate.toString();
         Date date = new Date();
@@ -237,7 +237,7 @@ public final class Utils {
      * @param seedDate 种子日期
      * @return CalendarDate 所在周周六
      */
-    public static CalendarDate getSaturday(CalendarDate seedDate) {// TODO: 16/12/12 得到一个CustomDate对象
+    public static CalendarDate getSaturday(CalendarDate seedDate) {
         Calendar c = Calendar.getInstance();
         String dateString = seedDate.toString();
         Date date = null;
